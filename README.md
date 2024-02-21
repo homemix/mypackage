@@ -1,5 +1,6 @@
 # mypackage
-This is a test library printing top n numbers from a list
+1. This is a test library printing top n numbers from a list.
+2. Get the fibonacci of nth number.
 
 ## Building
 

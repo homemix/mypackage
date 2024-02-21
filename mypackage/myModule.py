@@ -28,4 +28,13 @@ def top_n(items, n):
     return top_n[::-1]
 
 
-print(top_n([8, 3, 2, 7, 4], 3))
+def fibonacci(n):
+    """
+    Return the nth Fibonacci
+    :param n:
+    :return: nth Fibonacci
+    """
+    if n <= 1:
+        return n
+    else:
+        return fibonacci(n - 1) + fibonacci(n - 2)
